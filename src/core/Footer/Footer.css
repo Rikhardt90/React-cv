@@ -1,0 +1,6 @@
+footer {
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+  height: 5vh;
+}
