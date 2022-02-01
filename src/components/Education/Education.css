@@ -1,0 +1,11 @@
+.education-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(39, 39, 39);
+    color: whitesmoke;
+
+    padding-top: 50px;
+  }

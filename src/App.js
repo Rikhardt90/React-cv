@@ -17,7 +17,7 @@ function App() {
         <Navbar />
         <main>
           <Routes>
-            <Route path="/" element={<Hero hero={hero} education={education}/>} />
+            <Route path="/" element={<Hero hero={hero} education={education} experience={experience}/>} />
             <Route path="timeline" element={<Timeline timeline={experience} />} />
             <Route path="/contact" element={<Contact/>} />
           </Routes>

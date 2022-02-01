@@ -5,7 +5,7 @@ import Experience from "../Experience/Experience"
 import "./Hero.css";
 import { Fade, Slide } from "react-awesome-reveal";
 
-const Hero = ({ hero, education }) => {
+const Hero = ({ hero, education, experience }) => {
 
   const [showEducation, setShowEducation] = useState(true);
 
@@ -75,9 +75,9 @@ const Hero = ({ hero, education }) => {
         
         <div className="exp-edu-div">
           {showEducation ? (
-            <Education/>
+            <Education education={education}/>
           ) : (
-            <Experience/>
+            <Experience experience={experience}/>
           )}
         </div>
       </div>
