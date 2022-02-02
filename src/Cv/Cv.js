@@ -6,6 +6,7 @@ export const CV = {
       email: "ricardo.meraciudad@gmail.com",
       birthDate: "31/07/1990",
       profileImage: "https://res.cloudinary.com/dbamkolrf/image/upload/v1643323646/Profile/perfil_et92wr.png",
+      contactImage: "https://res.cloudinary.com/dbamkolrf/image/upload/v1643323639/Profile/espada_yh3w1w.png",
       gitHub: "https://github.com/Rikhardt90",
       faceBook: "https://www.facebook.com/ricardo.meraciudad",
       instaGram: "https://www.instagram.com/rikhardt90",

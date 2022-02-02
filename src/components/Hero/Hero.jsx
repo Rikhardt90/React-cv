@@ -13,7 +13,7 @@ const Hero = ({ hero, education, experience }) => {
     <div className="primary-div">
       <div className="hero-div">
         <div className="hero-left">
-          <Fade duration={1500}>
+          <Fade duration={1500} triggerOnce>
             <img
               src="https://res.cloudinary.com/dbamkolrf/image/upload/v1643323646/Profile/perfil_et92wr.png"
               alt="Profile"
@@ -23,7 +23,7 @@ const Hero = ({ hero, education, experience }) => {
 
         <div className="hero-right">
           <div className="hero-right--top">
-            <Slide direction="right" cascade damping={0.1}>
+            <Slide direction="right" cascade damping={0.1} triggerOnce>
               <h2>
                 {hero.name} {hero.surname}
               </h2>
@@ -34,7 +34,7 @@ const Hero = ({ hero, education, experience }) => {
             </Slide>
           </div>
           <div className="hero-right--bottom">
-            <Fade delay={1200}>
+            <Fade delay={1200} triggerOnce>
               <div className="logo-div">
                 <img
                   className="logo"
@@ -63,6 +63,7 @@ const Hero = ({ hero, education, experience }) => {
           </div>
         </div>
       </div>
+      <hr className="separator" />
       <div className="second-div">
         <div className="buttons-div">
         <button className="custom-btn btn-4" onClick={() => setShowEducation(true)}>

@@ -1,0 +1,42 @@
+.contact-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contact-div--left{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    color: whitesmoke;
+
+}
+
+.contact-div--right{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-div--right img{
+    width: 400px;
+    border-radius: 300px;
+    border: solid orange 5px;
+    border-style: inset;
+    margin: 70px;
+    padding: 20px;
+}
+
+.contact-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.2em;
+
+}
+
+.contact-card a{
+    font-size: 1em;
+    padding-left: 20px;
+    color: orange;
+}

@@ -8,9 +8,9 @@ const Experience = ({ experience }) => {
       <div className="experience-div">
         {experience.map((item) => {
           return (
-            <div key={JSON.stringify(item)}>
+            <div className="exp-card" key={JSON.stringify(item)}>
               <Fade>
-              <p className="name">📕 {item.name}</p>
+              <h3 className="name">{item.name}</h3>
               <p>{item.where}</p>
               <p>{item.date}</p>
               <p>{item.description}</p>

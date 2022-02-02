@@ -19,7 +19,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Hero hero={hero} education={education} experience={experience}/>} />
             <Route path="timeline" element={<Timeline timeline={experience} />} />
-            <Route path="/contact" element={<Contact/>} />
+            <Route path="/contact" element={<Contact contact={hero} />} />
           </Routes>
         </main>
       </Router>

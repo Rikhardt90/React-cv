@@ -7,10 +7,8 @@ const Navbar = () => {
   return (
     <nav>
       <Link to="/">Home</Link>
-      {/* <AttentionSeeker effect="heartBeat"> */}
-        <Link to="/timeline">Timeline</Link>
-        <Link to="/contact">Contact</Link>
-      {/* </AttentionSeeker> */}
+      <Link to="/timeline">Timeline</Link>
+      <Link to="/contact">Contact</Link>
     </nav>
   );
 };

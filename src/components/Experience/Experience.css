@@ -9,3 +9,11 @@
 
   padding-top: 50px;
 }
+
+.exp-card{
+  margin:30px;
+}
+
+.exp-card h3{
+  text-decoration: underline;
+}
