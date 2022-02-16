@@ -4,8 +4,9 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background-color: rgb(39, 39, 39);
+
   color: whitesmoke;
+  margin-top: 18vh;
 }
 
 .hero-right {
@@ -14,35 +15,33 @@
   justify-content: space-around;
 }
 
-.hero-right h2{
-    font-size: 40px;
+.hero-right h2 {
+  font-size: 40px;
 }
 
-.hero-right h3{
-    font-size: 30px;
+.hero-right h3 {
+  font-size: 30px;
 }
 
-.hero-right p{
-    font-size: 20px;
-    color: orange;
-    margin: 20px
+.hero-right p {
+  font-size: 20px;
+  color: orange;
+  margin: 20px;
 }
 
 .hero-right--bottom {
   display: flex;
   justify-content: center;
-
 }
 
 .logo-div {
   display: flex;
   align-items: center;
   margin: 10px;
-
 }
 
-.hero-right--bottom a{
-    font-size: 15px;
+.hero-right--bottom a {
+  font-size: 15px;
 }
 
 .hero-left img {
@@ -60,16 +59,16 @@
   border: none;
 }
 
-.separator{
+.separator {
   border: dotted;
   background: rgb(66, 66, 66);
 }
 
-.second-div{
+.second-div {
   padding-top: 30px;
 }
 
-.buttons-div{
+.buttons-div {
   display: flex;
   justify-content: space-evenly;
 

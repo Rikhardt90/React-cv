@@ -1,12 +1,12 @@
 import React from "react";
-import "./Contact.css";
+import "./Contact.scss";
 import { Fade, Slide } from "react-awesome-reveal";
 
 const Contact = ({ contact }) => {
   return (
     <div className="contact-div">
-      <div className="contact-div--left">
-        <Slide direction="left" cascade damping={0.1} triggerOnce>
+      <Fade delay={500} triggerOnce="true">
+        <div className="contact-div--left">
           <h3>Contact:</h3>
 
           <div className="contact-card">
@@ -24,13 +24,13 @@ const Contact = ({ contact }) => {
           <div className="contact-card">
             <p>Phone:</p> <a href="mailto:ricardo.meraciudad@gmail.com">asdf</a>
           </div>
-        </Slide>
-      </div>
-      <div className="contact-div--right">
-        <Fade duration={1500} triggerOnce>
+        </div>
+      </Fade>
+      <Fade delay={500} triggerOnce="true">
+        <div className="contact-div--right">
           <img src={contact.contactImage} alt="" />
-        </Fade>
-      </div>
+        </div>
+      </Fade>
     </div>
   );
 };
