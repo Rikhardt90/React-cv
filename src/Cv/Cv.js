@@ -31,16 +31,19 @@ export const CV = {
         name: "Fullstack Web Development",
         date: "2021",
         where: "Upgrade Hub",
+        description: "FSWD bootcamp in UpgradeHub. HTML, CSS, JavaScript, Node, Angular, React...",
       },
       {
         name: "Automatization & Robotics",
         date: "2017",
         where: "IES Julio Verne",
+        description: "FPII in Robotics. PLC programming, medium/heavy machinery maintenance. Electricity, hydraulics, safety...",
       },
       {
         name: "Music",
         date: "1994",
         where: "Various schools",
+        description: "From classical to metal, all kinds of instruments. Lead guitar in Ignis Anima",
       },
     ],
     experience: [

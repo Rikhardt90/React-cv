@@ -1,0 +1,19 @@
+.about-div {
+    padding-top: 230px;
+  }
+  
+  .buttons-div {
+    display: flex;
+    justify-content: space-evenly;
+    button {
+      background-color: rgb(56, 56, 56);
+      border: solid orange 3px;
+      border-radius: 20px;
+      color: orange;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+    }
+  }

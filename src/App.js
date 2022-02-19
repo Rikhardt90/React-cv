@@ -2,7 +2,7 @@ import { useState } from "react";
 import Navbar from "./core/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import Contact from "./components/Contact/Contact";
-import Timeline from "./components/Timeline/Timeline";
+import About from "./components/About/About";
 import Footer from "./core/Footer/Footer";
 import "./App.css";
 import { CV } from "./Cv/Cv";
@@ -17,8 +17,8 @@ function App() {
         <Navbar />
         <main>
           <Routes>
-            <Route path="/" element={<Hero hero={hero} education={education} experience={experience}/>} />
-            <Route path="timeline" element={<Timeline timeline={experience} />} />
+            <Route path="/" element={<Hero hero={hero} />} />
+            <Route path="/about" element={<About about={About} education={education} experience={experience} />} />
             <Route path="/contact" element={<Contact contact={hero} />} />
           </Routes>
         </main>

@@ -1,0 +1,24 @@
+.education-div {
+  display: flex;
+  flex-direction: column;
+align-items: center;
+  color: whitesmoke;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  .edu-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+  }
+  h3 {
+    text-decoration: underline;
+  }
+  span{
+    color: orange;
+  }
+}
+
+
+

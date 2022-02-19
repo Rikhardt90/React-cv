@@ -1,24 +1,25 @@
 import React from "react";
-import "./Education.css";
+import "../../styles/Education.scss";
 import { Fade } from "react-awesome-reveal";
 
 const Education = ({ education }) => {
   return (
-    <div>
+
       <div className="education-div">
         {education.map((item) => {
           return (
-            <div className ="edu-card" key={JSON.stringify(item)}>
+            <div className ="edu-card">
                 <Fade>
               <h3 className="name">{item.name}</h3>
-              <p>{item.where}</p>
+              <span><p>{item.where}</p></span>
               <p>{item.date}</p>
+              <p>{item.description}</p>
               </Fade>
             </div>
           );
         })}
       </div>
-    </div>
+
   );
 };
 

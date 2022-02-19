@@ -1,5 +1,5 @@
 import React from "react";
-import "./Experience.css";
+import "../../styles/Experience.scss";
 import { Fade } from "react-awesome-reveal";
 
 const Experience = ({ experience }) => {
@@ -8,14 +8,16 @@ const Experience = ({ experience }) => {
       <div className="experience-div">
         {experience.map((item) => {
           return (
-            <div className="exp-card" key={JSON.stringify(item)}>
-              <Fade>
+            <Fade>
+            <div className="exp-card">
+
               <h3 className="name">{item.name}</h3>
               <p>{item.where}</p>
               <p>{item.date}</p>
               <p>{item.description}</p>
-              </Fade>
+
             </div>
+            </Fade>
           );
         })}
       </div>

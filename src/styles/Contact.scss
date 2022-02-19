@@ -16,7 +16,7 @@
     display: flex;
     justify-content: center;
     img {
-      width: 400px;
+      width: 350px;
       border-radius: 300px;
       border: solid orange 5px;
       border-style: inset;
@@ -32,6 +32,7 @@
   flex-direction: row;
   align-items: center;
   font-size: 1.2em;
+  padding: 10px;
   a {
     font-size: 1em;
     padding-left: 20px;

@@ -1,13 +1,13 @@
 import React from "react";
-import "./Contact.scss";
-import { Fade, Slide } from "react-awesome-reveal";
+import "../../styles/Contact.scss";
+import { Fade } from "react-awesome-reveal";
 
 const Contact = ({ contact }) => {
   return (
     <div className="contact-div">
-      <Fade delay={500} triggerOnce="true">
+      <Fade delay={200} triggerOnce="true">
         <div className="contact-div--left">
-          <h3>Contact:</h3>
+        
 
           <div className="contact-card">
             <p>Email:</p>{" "}
@@ -22,11 +22,11 @@ const Contact = ({ contact }) => {
           </div>
 
           <div className="contact-card">
-            <p>Phone:</p> <a href="mailto:ricardo.meraciudad@gmail.com">asdf</a>
+            <p>Social:</p> <a href="https://www.facebook.com/ricardo.meraciudad">Facebook</a><a href="https://www.instagram.com/rikhardt90">Instagram</a>
           </div>
         </div>
       </Fade>
-      <Fade delay={500} triggerOnce="true">
+      <Fade delay={200} triggerOnce="true">
         <div className="contact-div--right">
           <img src={contact.contactImage} alt="" />
         </div>

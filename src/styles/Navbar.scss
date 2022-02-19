@@ -78,21 +78,23 @@
       &__4 {
         min-width: 100vw;
         height: 50px;
-        margin-left: -80px;
+        margin-left: -50px;
         margin-top: 70px;
         background-color: rgb(253, 230, 60);
 
         display: flex;
         align-items: center;
         justify-content: flex-end;
+
         .nav-links {
+
           margin-right: 60px;
 
           a {
             padding: 30px;
             color: rgb(41, 41, 41);
             text-decoration: none;
-            font-family: "Roboto", sans-serif;
+
             font-size: larger;
             font-weight: bold;
           }
