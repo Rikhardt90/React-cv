@@ -36,7 +36,7 @@ const Navbar = () => {
             <div className="circle__1"></div>
           </Reveal>
           <Reveal delay={0} keyframes={slideIn} triggerOnce="true">
-            <div className="beam__1"></div>
+            <span className="beam__1"></span>
           </Reveal>
         </div>
         <div className="container">
